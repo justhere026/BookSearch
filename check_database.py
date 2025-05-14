@@ -6,6 +6,6 @@ cursor.execute("SELECT title FROM books")
 titles = cursor.fetchall()
 conn.close()
 
-print("\n📚 Books in Database:")
+print("\n Books in Database:")
 for title in titles:
     print(title[0])
